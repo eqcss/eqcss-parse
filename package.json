@@ -1,0 +1,38 @@
+{
+  "name": "eqcss-parse",
+  "version": "1.0.0",
+  "description": "Parse EQCSS files and return JavaScript that can apply the parsed queries directly to EQCSS.data bypassing EQCSS.load and the need to include the EQCSS syntax",
+  "main": "eqcss-parse.js",
+  "bin": {
+    "eqcss-parse": "index.js"
+  },
+  "keywords": [
+    "css",
+    "style",
+    "styles",
+    "eqcss",
+    "reprocessor",
+    "CSS reprocessor",
+    "element",
+    "container",
+    "query",
+    "queries",
+    "scoping",
+    "scoped",
+    "meta",
+    "this",
+    "parent",
+    "selector",
+    "selectors"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tommy Hodgins",
+  "license": "MIT",
+  "dependencies": {
+    "minimist": "^1.2.0",
+    "read-file-stdin": "^0.2.1",
+    "write-file-stdout": "0.0.2"
+  }
+}
