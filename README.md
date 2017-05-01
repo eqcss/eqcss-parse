@@ -6,6 +6,8 @@
 
 [![Join the chat at https://gitter.im/eqcss/eqcss](https://badges.gitter.im/eqcss/eqcss.svg)](https://gitter.im/eqcss/eqcss?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
+![](http://i.imgur.com/VQ7IG4Y.gif)
+
 ## What does eqcss-parse do?
 
 The main purpose of `eqcss-parse` is to consume the [custom CSS-like syntax](http://tomhodgins.github.io/element-queries-spec/element-queries.html) of [EQCSS](http://elementqueries.com) and parse it, transforming the selector(s), condition(s) and CSS styles in a JavaScript objects that can be loaded directly into EQCSS via `EQCSS.register`.
